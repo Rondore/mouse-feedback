@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Mouse Feedback</title>
+        <style>
+            body {
+                overscroll-behavior-y: contain;
+                overflow: hidden;
+                width: 100vw;
+                height: 100vh;
+            }
+            canvas {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+        <script type="importmap">{"imports":{"mouseFeedback":"./index.js"}}</script>
+        <script type="module" src="index.js"></script>
+    </head>
+    <body>
+        <canvas class="mouse-feedback-canvas"></canvas>
+    </body>
+</html>

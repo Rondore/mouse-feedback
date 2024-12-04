@@ -1,0 +1,18 @@
+{
+  "name": "MouseFeedback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@verces.thegreatdivide.info:hummingbird/host-leaf.git"
+  },
+  "author": "Sean Walter",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
